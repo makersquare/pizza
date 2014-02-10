@@ -1,12 +1,13 @@
-require 'rubygems'
-require 'bundler/setup'
-require 'rspec'
-require_relative '../pizza'
+require './pizza'
 
-describe Pizza::Pie do
+describe Pizza do
+  it "exists" do
+    expect(Pizza).to be_a(Class)
+  end
+end
 
-end 
-
-describe Pizza::Topping do
-
+describe Topping do
+  it "exists" do
+    expect(Topping).to be_a(Class)
+  end
 end

@@ -1,9 +1,5 @@
-module Pizza
-  class Pie
+class Pizza
+end
 
-  end
-
-  class Topping
-
-  end
+class Topping
 end
